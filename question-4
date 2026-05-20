@@ -1,1 +1,7 @@
-
+public int getPointsForRow(int targetRow){
+  int sumOfRow = 0;
+  for (int c = 0; c < board[0].length; c ++){
+      for (int r = 0; r < board.length; r ++){
+        if (r = targetRow){
+          sumOfRow += board[r][c].getPoints();
+          
