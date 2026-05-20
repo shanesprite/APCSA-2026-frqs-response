@@ -2,6 +2,8 @@ public class Attendance {
     public int moreHistoryThanMathAbsences(){
         int numHStudents = historyList.size();
         int numMStudents = mathList.size();
-        
+
+        for (int h = 0; h < historyList.size(); h ++){
+            
     }
 }
