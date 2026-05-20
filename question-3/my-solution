@@ -1,1 +1,7 @@
-
+public class Attendance {
+    public int moreHistoryThanMathAbsences(){
+        int numHStudents = historyList.size();
+        int numMStudents = mathList.size();
+        
+    }
+}
