@@ -4,6 +4,6 @@ public class Attendance {
         int numMStudents = mathList.size();
 
         for (int h = 0; h < historyList.size(); h ++){
-            
+            //TO FINISH
     }
 }
