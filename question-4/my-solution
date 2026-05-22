@@ -16,4 +16,5 @@ public int getPointsForRow(int targetRow){
         }
       }
     }
+    return sumOfRow
 }
