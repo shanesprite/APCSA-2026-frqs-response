@@ -1,9 +1,19 @@
 public class Attendance {
     public int moreHistoryThanMathAbsences(){
-        int numHStudents = historyList.size();
-        int numMStudents = mathList.size();
+        int numHStudentsA = 0;
+        int numMStudentsA = 0;
+
+        int numH = 0;
+        int numA = 0;
 
         for (int h = 0; h < historyList.size(); h ++){
-            //TO FINISH
+            String b = historyList.getStudentID();
+            numHStudentsA += b.getAbsences;
     }
 }
+        for (int m = 0; m < mathList.size(); h ++){
+            String b = historyList.getStudentID();
+            numHStudents A += b.getAbsences;
+    }
+}
+        //TO FINISH
