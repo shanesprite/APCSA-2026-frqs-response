@@ -4,15 +4,19 @@ public class Attendance {
         for (int h = 0; h < historyList.size(); h ++){
             String b = historyList.get(h).getStudentID();
             historyStudents.add(b);
-    }
-}        
+        }
+
         int count = 0;
         for (int m = 0; m < mathList.size(); h ++){
             for (int g = 0; g < historyStudents.size(); g ++){
                 if (historyStudents.get(g).equals(mathList.get(m).getStudentID()){
                     if(historyStudents.get(g).getAbsences() < mathList.get(m).getAbsences()){
                         count ++;
+                    }
+                }
+            }
+        return count;
+        }
     }
-    return count;
 }
 
